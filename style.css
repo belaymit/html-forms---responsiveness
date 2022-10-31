@@ -25,7 +25,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 25px;
-  color:#2e86c1;
+  color: #2e86c1;
   text-transform: uppercase;
   text-align: center;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .wrapper .form .input-field .input,
-.wrapper .form .input-field .textarea{
+.wrapper .form .input-field .textarea {
   width: 100%;
   outline: none;
   border: 1px solid #d5dbd9;
@@ -141,7 +141,7 @@ body {
   background: #fec107;
 }
 
-.wrapper .form .input-field .check input[type="checkbox"]:checked~.checkmark::before {
+.wrapper .form .input-field .check input[type="checkbox"]:checked ~ .checkmark::before {
   display: block;
 }
 
@@ -165,7 +165,7 @@ body {
   background: #ffd658;
 }
 
-@media (max-width:420px) {
+@media (max-width: 420px) {
   .wrapper .form .input-field {
     flex-direction: column;
     align-items: flex-start;
@@ -179,4 +179,3 @@ body {
     flex-direction: row;
   }
 }
-
